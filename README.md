@@ -1,27 +1,47 @@
-# Provodkalar Ustasi (Trenajyor)
+# FAXR MADAD KONSALT - O'quv Portali
 
-**"FAXR MADAD KONSALT"** o'quv markazi tinglovchilari uchun maxsus interaktiv viktorina (o'yin).
+Bu loyiha "FAXR MADAD KONSALT" o'quv markazi uchun maxsus ishlab chiqilgan bo'lib, barcha mavjud buxgalteriya simulyatorlari va trenajyorlarini yagona markazlashgan portalga birlashtiradi.
 
-Ushbu trenajyor buxgalteriya hisobida **Ikki yoqlama yozuv (Provodka)** mantig'ini mustahkamlash uchun mo'ljallangan.
+## 🎯 Loyiha Maqsadi
+O'quvchilar uchun qulay, intuitiv va chiroyli interfeys orqali barcha amaliy mashg'ulotlarga oson kirish imkoniyatini yaratish. Har bir o'quvchi bu portal orqali o'ziga kerakli bo'limni tanlab, mustaqil ravishda amaliyot o'tashi mumkin.
 
-## 🎯 Maqsad
-Foydalanuvchi berilgan iqtisodiy operatsiyaga mos keluvchi **Debet (Dt)** va **Kredit (Kt)** schyotlarini to'g'ri topishi kerak.
+## 📂 Tuzilma
+Portal quyidagi bo'limlarni o'z ichiga oladi va ularga yo'naltiradi:
 
-## 🎮 O'yin Qoidalari
-1.  **Savol:** Ekranda tasodifiy operitsiya chiqadi (Masalan: *"Xodimga oylik berildi"*).
-2.  **Tanlov:** Siz ro'yxatdan mos schyotlarni tanlaysiz (Masalan: Dt 6710, Kt 5010).
-3.  **Tekshirish:** "Tekshirish" tugmasini bosganda:
-    - ✅ **To'g'ri:** Ball olasiz (+10 ball) va qisqacha izoh ko'rasiz.
-    - ❌ **Xato:** To'g'ri javob ko'rsatiladi va nima uchunligini tushuntiriladi.
+### 1. Buxgalteriya Asoslari
+- **Buxgalteriya Trenajyori:** Provodkalar (Dt/Kt) bo'yicha bilimni mustahkamlash uchun savol-javob o'yini.
+- **Buxgalteriya Simulyatori:** Umumiy buxgalteriya amaliyoti va jurnal orderlar.
 
-## 📚 Schyotlar Bazasi
-O'yinda eng ko'p ishlatiladigan asosiy schyotlar mavjud:
-- **Aktivlar:** Kassa (5010), Bank (5110), Tovar (2910), Xaridor (4010)...
-- **Majburiyatlar:** Yetkazib beruvchilar (6010), Soliq (6410), Oylik (6710)...
-- **Daromad va Xarajat:** Sotish (9010), Xarajatlar (9400)...
+### 2. Pul Mablag'lari
+- **Kassa Tizimi:** Kirim (PKO) va Chiqim (RKO) orderlari bilan ishlash.
+- **Bank Tizimi:** To'lov topshiriqnomalari va bank ko'chirmalari.
 
-## 🚀 Ishga Tushirish
-`index.html` faylini istalgan veb-brauzerda (Chrome, Edge) oching va bilimingizni sinang!
+### 3. Ombor Hisobi
+- **Ombor (FIFO):** Materiallar hisobi, birinchi kirgan - birinchi chiqadi usuli.
+- **Ombor (AVECO):** O'rtacha tortilgan qiymat bo'yicha hisob-kitob.
 
----
-**Muallif:** Suxrat Abdullaev
+### 4. Kadrlar va Ish Haqi
+- **Kadrlar Bo'limi:** Xodimlarni ishga olish, buyruqlar va shartnomalar.
+- **Tabel Hisobi:** Ish vaqtini hisobga olish tabeli.
+- **Xizmat Safari:** Xizmat safari guvohnomalari va hisobotlari.
+
+### 5. Aktivlar
+- **Asosiy Vositalar:** 0100 - Asosiy vositalar kirimi, eskirishi va hisobi.
+- **Nomoddiy Aktivlar:** 0400 - Nomoddiy aktivlar bilan ishlash.
+
+### 6. Kontragentlar
+- **Debitorlar:** Xaridorlar va mol yetkazib beruvchilar bilan hisob-kitoblar (haqdorlik).
+- **Kreditorlar:** Yetkazib beruvchilar va boshqa qarzdorliklar.
+
+### 7. Boshqalar
+- **Ishlab Chiqarish:** Mahsulot tannarxi kalkulyatsiyasi.
+- **Soliqlar:** Soliq hisobotlari va regestrlari.
+
+## 🚀 O'rnatish va Ishlatish
+1.  Barcha loyiha papkalarini (trenajyor, ombor, kassa va h.k.) va ushbu `bosh_sahifa` papkasini bitta umumiy katalogga (masalan, `D:\AMALIYOT\`) joylashtiring.
+2.  `bosh_sahifa/index.html` faylini oching.
+3.  O'quvchilar uchun ushbu `index.html` fayliga "Ish stoli" (Desktop) da yorliq (Shortcut) yaratib qo'yish tavsiya etiladi.
+
+## 👤 Mualliflik Huquqi
+Loyiha **Suxrat Abdullaev** tomonidan "FAXR MADAD KONSALT" uchun ishlab chiqilgan.
+Barcha huquqlar himoyalangan. 2025-yil.
